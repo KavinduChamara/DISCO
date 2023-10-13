@@ -1,0 +1,64 @@
+.album-div {
+    margin-top: 50px;
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 1100px;
+    margin-bottom: 30px;
+    padding: 20px;
+}
+
+.gallery-header {
+    text-align: center;
+    margin-top: 50px;
+}
+
+.masonry-gallery {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.masonry-item {
+    margin: 10px;
+    border-style: solid;
+    border-color: #282c34;
+    border-width: 1px;
+    border-radius: 10px;
+}
+
+.masonry-item img {
+    max-width: 100%;
+    height: auto;
+    border-radius: inherit;
+    cursor: pointer;
+}
+
+.image-size {
+    font-size: 10px;
+    text-align: center;
+}
+
+.detail-item {
+    display: flex;
+    flex-direction: row;
+    margin-top: 10px;
+}
+
+.detail-title {
+    min-width: 200px;
+}
+
+.image-description {
+    text-align: justify;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.details-img {
+    display: flex;
+    margin: auto;
+}
+
+.image-title {
+    text-align: center;
+}
